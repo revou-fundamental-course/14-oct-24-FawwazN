@@ -1,1 +1,43 @@
 /* file reserved for css */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url('../assets/logo.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+}
+
+nav>a {
+    border: 1px solid;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.photo-banner{ 
+    height: 250px;
+    background-image: url("../assets/banner1.jpeg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.profile-article{
+    height: 300px;
+}
+
+footer>div{
+    text-align: right;
+    font-size: small;
+}
